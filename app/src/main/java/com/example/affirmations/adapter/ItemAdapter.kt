@@ -26,11 +26,13 @@ class ItemAdapter(
         return ItemViewHolder(adapterLayout)
     }
 
+    override fun getItemCount() = dataset.size
+
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val item = dataset[position]
         holder.textView.text =  context.resources.getString(item.stringResourceId)
     }
 
-    override fun getItemCount() = dataset.size
+
 
 }
