@@ -9,5 +9,5 @@ Codelab link: [Display a scrollable list](https://developer.android.com/courses/
 
 
 <div align="center">
-<img align="center" alt="Affirmations app running" height="500" src="">
+<img align="center" alt="Affirmations app running" height="500" src="https://github.com/knludi/android-app-affirmations/blob/master/README/affirmations.gif">
 </div>
